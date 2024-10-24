@@ -8,7 +8,7 @@
 
 <div align="center">
 
-[<img width="256" alt="CSS Unit Guide Logo" src="images/logo.png" />](#)
+[<img width="256" alt="CSS Unit Guide Logo" src="assets/icon.png" />](#)
 
 <br />
 
