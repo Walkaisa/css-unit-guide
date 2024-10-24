@@ -1,0 +1,62 @@
+{
+    "name": "css-unit-guide",
+    "displayName": "CSS Unit Guide",
+    "description": "Displays pixel equivalents of CSS units like rem, em, and % next to them.",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Walkaisa/css-unit-guide.git"
+    },
+    "publisher": "Walkaisa",
+    "contributors": [
+        "Walkaisa <contact@walkaisa.dev>"
+    ],
+    "main": "./dist/extension.js",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Visualization",
+        "Other"
+    ],
+    "extensionKind": [
+        "workspace",
+        "ui"
+    ],
+    "galleryBanner": {
+        "color": "#5865F2",
+        "theme": "dark"
+    },
+    "activationEvents": [
+        "onLanguage:css",
+        "onLanguage:scss",
+        "onLanguage:less"
+    ],
+    "scripts": {
+        "vscode:prepublish": "npm run package",
+        "compile": "npm run check-types && npm run lint && node esbuild.js",
+        "watch": "npm-run-all -p watch:*",
+        "watch:esbuild": "node esbuild.js --watch",
+        "watch:tsc": "tsc --noEmit --watch --project tsconfig.json",
+        "package": "npm run check-types && npm run lint && node esbuild.js --production",
+        "compile-tests": "tsc -p . --outDir out",
+        "watch-tests": "tsc -p . -w --outDir out",
+        "pretest": "npm run compile-tests && npm run compile && npm run lint",
+        "check-types": "tsc --noEmit",
+        "lint": "eslint src",
+        "test": "vscode-test"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.54.0",
+        "@types/mocha": "^10.0.9",
+        "@types/node": "20.x",
+        "@typescript-eslint/eslint-plugin": "^8.10.0",
+        "@typescript-eslint/parser": "^8.7.0",
+        "eslint": "^9.13.0",
+        "esbuild": "^0.24.0",
+        "npm-run-all": "^4.1.5",
+        "typescript": "^5.6.3",
+        "@vscode/test-cli": "^0.0.10",
+        "@vscode/test-electron": "^2.4.1"
+    }
+}
