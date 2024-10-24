@@ -12,7 +12,7 @@
 
 <br />
 
-[![Status](https://img.shields.io/badge/status-Not_Released-e44d3c.svg)](https://github.com/Walkaisa/css-unit-guide)
+[![Status](https://img.shields.io/badge/status-RELEASED-e44d3c.svg)](https://github.com/Walkaisa/css-unit-guide)
 [![License](https://img.shields.io/github/license/Walkaisa/css-unit-guide)](https://github.com/Walkaisa/css-unit-guide/blob/master/LICENSE.txt)
 [![Discord](https://img.shields.io/discord/996889527698341978?label=discord)](https://walkaisa.dev/discord)
 
