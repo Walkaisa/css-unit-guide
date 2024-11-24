@@ -22,13 +22,13 @@
 
 # CSS Unit Guide
 
-A Visual Studio Code extension that displays the pixel equivalent of CSS units like `rem`, `em`, and `%` next to them in your code.
+A Visual Studio Code extension that displays the pixel equivalent of CSS units like `rem` next to them in your code.
 
 > Remember to 🌟 this repository if you find it useful!
 
 ## 📌 Features
 
-- **Automatic Conversion:** Shows pixel equivalents next to `rem`, `em`, and `%` units.
+- **Automatic Conversion:** Shows pixel equivalents next to `rem` units.
 - **Multiple File Types:** Supports CSS, SCSS, and LESS files.
 - **Customizable Base Font Size:** Adjust the base font size to match your project's requirements.
 - **Real-Time Updates:** Automatically updates as you type or edit your code.
@@ -57,7 +57,7 @@ Since this is a private extension, you can install it manually:
 
 ## 💡 Usage
 
-Simply open a CSS, SCSS, or LESS file and start typing values using "rem", "em", or "%". The extension will automatically display the corresponding pixel values next to them.
+Simply open a CSS, SCSS, or LESS file and start typing values using "rem". The extension will automatically display the corresponding pixel values next to them.
 
 
 ## 👨‍💻 Contributing
